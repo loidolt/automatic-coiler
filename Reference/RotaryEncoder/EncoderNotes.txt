@@ -1,0 +1,3 @@
+Encoders have an A and a B output. Tieing A to and interrupt pin and B to an input. On interrupt from A check B and if HIGH add 1 to PositionVar, if B is low Subtract 1 from PositionVar.
+
+https://youtu.be/dTGITLnYAY0

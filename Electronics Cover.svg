@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- ARC is A xrad yrad xrotation-degrees largearc sweep end_x end_y -->
+
+<svg
+   xmlns:shaper="http://www.shapertools.com/namespaces/shaper"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   enable-background="new 0.5906 27.1661 12.3622 38.9422"
+   height="3.5818892in"
+   width="3.5805285in"
+   version="1.1"
+   viewBox="0.5906 27.1661 3.7601375 11.844994"
+   x="0.5906in"
+   y="0.5906in"
+   shaper:sketchupaddin="2.2.1"
+   id="svg32"
+   sodipodi:docname="Electronics Cover.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata38">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>AutomaticCoilerV2 cut profile
+</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs36" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1813"
+     inkscape:window-height="1150"
+     id="namedview34"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="2.3618263"
+     inkscape:cx="124.78314"
+     inkscape:cy="156.59273"
+     inkscape:window-x="1214"
+     inkscape:window-y="316"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg32" />
+  <title
+     id="title2">AutomaticCoilerV2 cut profile
+</title>
+  <desc
+     id="desc4">Shaper cut profile from Sketchup model AutomaticCoilerV2
+</desc>
+  <path
+     d="m 7.5690672,38.976647 v -0.5906 a 0.1969,0.1969 0 0 1 -0.1392,-0.336 0.1969,0.1969 0 0 1 0.3361,0.1392 h 0.5905 v -10.2013 h -0.7874 v -0.7874 H -2.6277329 v 0.5906 a 0.1969,0.1969 0 0 1 0.1391,0.336 0.1969,0.1969 0 0 1 -0.336,-0.1392 h -0.5905 v 10.2013 h 0.7874 v 0.7874 z"
+     shaper:pathType="exterior"
+     shaper:cutDepth="0.1969"
+     id="path6"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:0.06889401;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     d="m 7.9292672,37.703447 a 0.1063,0.1063 0 0 0 0.1063,0.1841 0.1063,0.1063 0 0 0 -0.1063,-0.1841 z"
+     shaper:pathType="interior"
+     shaper:cutDepth="0.1969"
+     id="path8"
+     inkscape:connector-curvature="0"
+     style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:0.06889401;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     d="m 7.1001672,27.499447 a 0.10631351,0.10631351 0 0 1 0.1504,0.1503 0.10631351,0.10631351 0 0 1 -0.1504,-0.1503 z"
+     shaper:pathType="interior"
+     shaper:cutDepth="0.1969"
+     id="path10"
+     inkscape:connector-curvature="0"
+     style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:0.06889401;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     d="m 2.5733675,27.602147 a 0.10633105,0.10633105 0 0 1 -0.2054,-0.0551 0.10633105,0.10633105 0 0 1 0.2054,0.0551 z"
+     shaper:pathType="interior"
+     shaper:cutDepth="0.1969"
+     id="path12"
+     inkscape:connector-curvature="0"
+     style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:0.06889401;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     d="m 8.0851672,33.061047 a 0.10633105,0.10633105 0 0 1 -0.2054,0.0551 0.10633105,0.10633105 0 0 1 0.2054,-0.0551 z"
+     shaper:pathType="interior"
+     shaper:cutDepth="0.1969"
+     id="path14"
+     inkscape:connector-curvature="0"
+     style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:0.06889401;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     d="m 7.9292672,28.473747 a 0.1063,0.1063 0 0 1 0.1063,-0.1841 0.1063,0.1063 0 0 1 -0.1063,0.1841 z"
+     shaper:pathType="interior"
+     shaper:cutDepth="0.1969"
+     id="path16"
+     inkscape:connector-curvature="0"
+     style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:0.06889401;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     d="m 7.2285672,38.694647 a 0.1063,0.1063 0 0 1 -0.1063,-0.1841 0.1063,0.1063 0 0 1 0.1063,0.1841 z"
+     shaper:pathType="interior"
+     shaper:cutDepth="0.1969"
+     id="path18"
+     inkscape:connector-curvature="0"
+     style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:0.06889401;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     d="m 2.3785675,38.549447 a 0.1063,0.1063 0 0 1 0.1841,0.1063 0.1063,0.1063 0 0 1 -0.1841,-0.1063 z"
+     shaper:pathType="interior"
+     shaper:cutDepth="0.1969"
+     id="path20"
+     inkscape:connector-curvature="0"
+     style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:0.06889401;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     d="m -2.2872329,38.510547 a 0.1063,0.1063 0 0 1 0.1063,0.1841 0.1063,0.1063 0 0 1 -0.1063,-0.1841 z"
+     shaper:pathType="interior"
+     shaper:cutDepth="0.1969"
+     id="path22"
+     inkscape:connector-curvature="0"
+     style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:0.06889401;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     d="m -3.0943329,37.887547 a 0.1063,0.1063 0 0 0 0.1063,-0.1841 0.1063,0.1063 0 0 0 -0.1063,0.1841 z"
+     shaper:pathType="interior"
+     shaper:cutDepth="0.1969"
+     id="path24"
+     inkscape:connector-curvature="0"
+     style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:0.06889401;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     d="m -3.0943329,33.180647 a 0.1063,0.1063 0 0 0 0.1063,-0.1841 0.1063,0.1063 0 0 0 -0.1063,0.1841 z"
+     shaper:pathType="interior"
+     shaper:cutDepth="0.1969"
+     id="path26"
+     inkscape:connector-curvature="0"
+     style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:0.06889401;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     d="m -2.2065329,27.677247 a 0.1063,0.1063 0 0 1 -0.0551,-0.2053 0.1063,0.1063 0 0 1 0.0551,0.2053 z"
+     shaper:pathType="interior"
+     shaper:cutDepth="0.1969"
+     id="path28"
+     inkscape:connector-curvature="0"
+     style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:0.06889401;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     d="m -3.1332329,28.434847 a 0.1063,0.1063 0 0 1 0.1841,-0.1063 0.1063,0.1063 0 0 1 -0.1841,0.1063 z"
+     shaper:pathType="interior"
+     shaper:cutDepth="0.1969"
+     id="path30"
+     inkscape:connector-curvature="0"
+     style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:0.06889401;stroke-miterlimit:4;stroke-dasharray:none" />
+</svg>
