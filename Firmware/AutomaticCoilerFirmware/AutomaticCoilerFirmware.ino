@@ -45,15 +45,15 @@ float distancePerPulse;
 #define in1 5
 #define in2 4
 int speedPWM = 0;
-int minPWM = 160;
+int minPWM = 120;
 
 bool CWRotation = true;
-int acceleration = 5;
+int acceleration = 2;
 
 //Job Variables
 float feedLength = 0;
 float distance = 0;
-float overshootLength = 100; //Deceleration overshoot length offset
+float overshootLength = 260; //Deceleration overshoot length offset
 
 //Menu Variables
 int menuItem = 0;
@@ -174,7 +174,7 @@ void RunJob(int feedLength)
   }
 
   //Run Full Speed
-  while (distance < feedLength - accelerationDistance) {
+  while (distance < feedLength - accelerationDistance - overshootLength) {
 
     calcDistance();
     
@@ -199,7 +199,7 @@ void RunJob(int feedLength)
     
   }
 
-  //Smooth Stop
+  //Decelerate
   while (speedPWM > minPWM) {
 
     calcDistance();
@@ -223,6 +223,32 @@ void RunJob(int feedLength)
     analogWrite(enA, speedPWM); // Send PWM signal to L298N Enable pin
     speedPWM = speedPWM - acceleration;
     delay(100);
+  }
+
+  //Fine Tune Length
+  while (distance < feedLength) {
+
+    calcDistance();
+    
+    Serial.print(distance);
+    Serial.print("/");
+    Serial.println(feedLength);
+    
+    unsigned long currentMillis = millis();
+
+    if (currentMillis - previousMillis >= updateInterval) {
+      // save the last time we updated LCD
+      previousMillis = currentMillis;
+  
+      lcd.setCursor(0, 1);
+      lcd.print("       ");
+      lcd.setCursor(0, 1);
+      lcd.print((int)distance);
+    }
+
+    analogWrite(enA, minPWM); // Send PWM signal to L298N Enable pin
+
+    
   }
   
   analogWrite(enA, 0); // Send PWM signal to L298N Enable pin
